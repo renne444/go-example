@@ -16,6 +16,7 @@ func main()  {
 	pub := priv.PublicKey
 	pub2:= priv2.PublicKey
 
+
 	plainText := []byte("fuckyou")
 	h := sha256.New()
 	h.Write(plainText)
